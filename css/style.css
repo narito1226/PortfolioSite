@@ -1,0 +1,81 @@
+@charset "UTF-8"
+
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    background-color: rgb(207, 207, 207);
+    width: 70%;
+    margin: 20px 15% 40px 15%;
+    padding: 0%;
+}
+
+h1{
+    font-size: 4rem;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    font-family: 'Architects Daughter', cursive;
+}
+
+h1 a{
+    color: white;
+}
+
+h1 a:hover{
+    color: black;
+}
+article{
+    display: flex;
+    justify-content: center;
+    
+}
+.side{
+    background-color: white;
+    width: 17%;
+    height: 500px;
+    padding: 20px;
+    border: solid 2px rgb(207,207,207);
+}
+li{
+    list-style: none;
+    font-size: 2.5rem;
+    font-family: 'Architects Daughter', cursive;
+    text-align: center;
+    margin: 25px 0;
+}
+li a:hover{
+    color: rgb(71, 212, 255);
+}
+
+.top-contents{
+    width: 53%;
+    height: 500px;
+    padding-left: 40px;
+}
+
+.top-contents img{
+    width: 100%;
+    height: 100%;
+}
+
+footer{
+    background-color: rgb(207, 207, 207);
+    height: 50px;
+    margin: 40px 15% 20px 15%;
+    font-family: 'Architects Daughter', cursive;
+}
+
+footer p{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+}
