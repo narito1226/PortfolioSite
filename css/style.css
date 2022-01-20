@@ -95,6 +95,88 @@ li a:hover{
     margin-bottom: 30px;
 }
 
+/*プロフィールページ*/
+.profile-contents{
+    background-color: rgb(233, 233, 233);
+    width: 50%;
+    height: 1180px;
+    margin-left: 3%;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.profile-contents h2{
+    font-size: 3rem;
+    font-family: 'Architects Daughter', cursive;
+    margin-bottom: 30px;
+}
+
+.profile-contents h3{
+    font-size: 2.4rem;
+    font-family: 'Architects Daughter', cursive;
+    margin-bottom: 20px;
+}
+
+.profile-contents img{
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+.skill,.study{
+    margin-bottom: 30px;
+}
+
+.skill-1,.skill-2{
+    padding: 0;
+    margin: 0;
+}
+
+.skill-2{
+    background-color: white;
+}
+.skill-1 p,
+.skill-2 p{
+    display: inline-block;
+    font-size: 20px;
+}
+
+.rate{
+    position: relative;
+    display: inline-block;
+    font-size: 28px;
+    }
+.rate:before{
+    content: "★★★★★";
+    color: #ccc;
+    }
+.html-css-rate:before,
+.photoshop-rate:before,
+.illustrator-rate:before,
+.adobexd-rate:before{
+    position: absolute;
+    top:0;
+    left:0;
+    color: #333333;
+    overflow: hidden;
+    }
+.html-css-rate:before,
+.adobexd-rate:before{
+        content: "★★";
+    }
+.photoshop-rate:before,
+.illustrator-rate:before{
+        content: "★";
+    }
+
+.study p{
+    font-size: 20px;
+}
+.sns img{
+    display: inline-block;
+    width: 50px;
+    height: auto;
+    margin: 20px 20px 0 20px;
+}
 
 /*フッター*/
 footer{
