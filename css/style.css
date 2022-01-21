@@ -17,11 +17,10 @@ header{
 }
 
 h1{
-    font-size: 4rem;
-    font-weight: bold;
-    font-style: italic;
+    font-size: 4.2rem;
+    font-weight: 400;
     text-align: center;
-    font-family: 'Architects Daughter', cursive;
+    font-family: 'Fuzzzy Bubbles', cursive;
 }
 
 h1 a{
@@ -47,7 +46,8 @@ article{
 li{
     list-style: none;
     font-size: 2.5rem;
-    font-family: 'Architects Daughter', cursive;
+    font-family: 'Fuzzzy Bubbles', cursive;
+    font-weight: 400;
     text-align: center;
     margin: 25px 0;
 }
@@ -72,16 +72,17 @@ li a:hover{
 .info-contents{
     background-color: rgb(233, 233, 233);
     width: 50%;
-    height: 880px;
+    height: 920px;
     margin-left: 3%;
-    padding: 40px 20px;
+    padding: 40px 50px;
     text-align: center;
 }
 
 .info-contents h2{
-    font-size: 3rem;
-    font-family: 'Architects Daughter', cursive;
-    margin-bottom: 30px;
+    font-size: 4rem;
+    font-family: 'Fuzzzy Bubbles', cursive;
+    font-weight: 400;
+    margin-bottom: 50px;
 }
 
 .info-contents img{
@@ -95,25 +96,28 @@ li a:hover{
     margin-bottom: 30px;
 }
 
+
 /*プロフィールページ*/
 .profile-contents{
     background-color: rgb(233, 233, 233);
     width: 50%;
-    height: 1180px;
+    height: 1200px;
     margin-left: 3%;
-    padding: 40px 20px;
+    padding: 40px 50px;
     text-align: center;
 }
 
 .profile-contents h2{
-    font-size: 3rem;
-    font-family: 'Architects Daughter', cursive;
-    margin-bottom: 30px;
+    font-size: 4rem;
+    font-family: 'Fuzzzy Bubbles', cursive;
+    font-weight: 400;
+    margin-bottom: 50px;
 }
 
 .profile-contents h3{
     font-size: 2.4rem;
-    font-family: 'Architects Daughter', cursive;
+    font-family: 'Fuzzy Bubbles', cursive;
+    font-weight: 400;
     margin-bottom: 20px;
 }
 
@@ -134,6 +138,7 @@ li a:hover{
 .skill-2{
     background-color: white;
 }
+
 .skill-1 p,
 .skill-2 p{
     display: inline-block;
@@ -145,10 +150,12 @@ li a:hover{
     display: inline-block;
     font-size: 28px;
     }
+
 .rate:before{
     content: "★★★★★";
     color: #ccc;
     }
+
 .html-css-rate:before,
 .photoshop-rate:before,
 .illustrator-rate:before,
@@ -159,10 +166,12 @@ li a:hover{
     color: #333333;
     overflow: hidden;
     }
+
 .html-css-rate:before,
 .adobexd-rate:before{
         content: "★★";
     }
+
 .photoshop-rate:before,
 .illustrator-rate:before{
         content: "★";
@@ -171,6 +180,7 @@ li a:hover{
 .study p{
     font-size: 20px;
 }
+
 .sns img{
     display: inline-block;
     width: 50px;
@@ -178,18 +188,131 @@ li a:hover{
     margin: 20px 20px 0 20px;
 }
 
+
+/*ブログページ*/
+.blog-contents{
+    background-color: rgb(233, 233, 233);
+    width: 50%;
+    height: 1520px;
+    margin-left: 3%;
+    padding: 40px 50px;
+}
+
+.blog-contents h2{
+    font-size: 4rem;
+    font-family: 'Fuzzy Bubbles', cursive;
+    font-weight: 400;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.blog-1,.blog-2{
+    text-align: left;
+    
+}
+
+.blog-1{
+    margin-bottom: 60px;
+}
+
+.blog-title{
+    font-size: 1.8rem;
+    font-weight: bold;
+    border-bottom: solid 2px rgb(54, 54, 54);
+}
+
+.blog-day{
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+.blog-contents img{
+    width: 500px;
+    height: auto;
+    margin: 20px 0;
+}
+
+.blog-text{
+    width: 95%;
+    overflow-wrap: normal;
+}
+
+.contact-contents{
+    background-color: rgb(233, 233, 233);
+    width: 50%;
+    height: 1200px;
+    margin-left: 3%;
+    padding: 40px 80px;
+}
+
+.contact-contents h2{
+    font-size: 4rem;
+    font-family: 'Fuzzy Bubbles', cursive;
+    font-weight: 400;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.input-all{
+    padding: 20px 0;
+    margin-bottom: 50px;
+    border-bottom: solid 2px black;
+}
+
+.ex-text{
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+label p{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+label,input,textarea{
+    display: block;
+}
+
+.name,.e-mail,.message{
+    background-color: white;
+    border-radius: 5%;
+    margin-bottom: 30px;
+}
+
+.button{
+    width: 80px;
+    height: 40px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: solid 2px rgb(165, 165, 165);
+    padding: 5px 0;
+    margin-bottom: 30px;
+}
+
+.my-email{
+    background-color: white;
+    width: 80%;
+    height: auto;
+    padding: 10px 10%;
+    border-radius: 10px;
+    border: dashed 2px rgb(126, 126, 126);
+}
+.my-email a{
+    color: skyblue;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
 /*フッター*/
 footer{
     background-color: rgb(207, 207, 207);
     height: 50px;
     margin: 40px 15% 20px 15%;
-    font-family: 'Architects Daughter', cursive;
+    font-family: 'Fuzzy Bubbles', cursive;
 }
 
 footer p{
     text-align: center;
     font-size: 1.2rem;
-    font-weight: bold;
+    font-weight: 400;
     color: white;
     padding: 10px;
 }
