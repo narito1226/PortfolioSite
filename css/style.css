@@ -188,6 +188,106 @@ li a:hover{
     margin: 20px 20px 0 20px;
 }
 
+/*ギャラリーページ*/
+.gallery-contents{
+    background-color: rgb(233, 233, 233);
+    width: 50%;
+    height: 2750px;
+    margin-left: 3%;
+    padding: 40px 60px;
+}
+
+.gallery-contents h2{
+    font-size: 4rem;
+    font-family: 'Fuzzy Bubbles', cursive;
+    font-weight: 400;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.gallery-contents h3{
+    font-size: 2.4rem;
+    font-family: 'Fuzzy Bubbles', cursive;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.illust,.design{
+    display: flex;
+    flex-direction: row;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 10px 50px 10px;
+}
+
+.website{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px;
+}
+.illust-coment,.design-coment{
+    width: 280px;
+    font-size: 14px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: ridge 3px rgb(207, 207, 207);
+    border-radius: 10px;
+}
+
+.website-coment{
+    width: 580px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    border: ridge 4px rgb(211, 211, 211);
+    border-radius: 10px;
+}
+
+.illust span,
+.design span{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.website span{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.website a{
+    text-align: right;
+    font-family: 'Fuzzy Bubbles', cursive;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.website a:hover{
+    color: tomato;
+}
+
+.illust img{
+    width: 280px;
+    height: 250px;
+    object-fit: cover;
+    object-position: 0 0;
+}
+
+.design img{
+    width: 280px;
+    height: 250px;
+    object-fit: contain;
+
+}
+
+.website img{
+    width: 580px;
+    height: 350px;
+    object-fit: cover;
+}
+
 
 /*ブログページ*/
 .blog-contents{
@@ -237,10 +337,11 @@ li a:hover{
     overflow-wrap: normal;
 }
 
+/*コンタクトページ*/
 .contact-contents{
     background-color: rgb(233, 233, 233);
     width: 50%;
-    height: 1200px;
+    height: 1120px;
     margin-left: 3%;
     padding: 40px 80px;
 }
@@ -275,7 +376,9 @@ label,input,textarea{
 .name,.e-mail,.message{
     background-color: white;
     border-radius: 5%;
+    padding: 5px 10px;
     margin-bottom: 30px;
+    resize: none;
 }
 
 .button{
