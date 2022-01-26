@@ -72,7 +72,6 @@ li a:hover{
 .info-contents{
     background-color: rgb(233, 233, 233);
     width: 50%;
-    height: 920px;
     margin-left: 3%;
     padding: 40px 50px;
     text-align: center;
@@ -97,11 +96,10 @@ li a:hover{
 }
 
 
-/*プロフィールページ*/
+/*Profileページ*/
 .profile-contents{
     background-color: rgb(233, 233, 233);
     width: 50%;
-    height: 1200px;
     margin-left: 3%;
     padding: 40px 50px;
     text-align: center;
@@ -188,13 +186,12 @@ li a:hover{
     margin: 20px 20px 0 20px;
 }
 
-/*ギャラリーページ*/
+/*Galleryページ*/
 .gallery-contents{
     background-color: rgb(233, 233, 233);
     width: 50%;
-    height: 2750px;
     margin-left: 3%;
-    padding: 40px 60px;
+    padding: 40px 20px;
 }
 
 .gallery-contents h2{
@@ -210,15 +207,15 @@ li a:hover{
     font-family: 'Fuzzy Bubbles', cursive;
     font-weight: 400;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .illust,.design{
-    display: flex;
-    flex-direction: row;
     display: grid;
     gap: 20px;
-    grid-template-columns: 1fr 1fr;
-    margin: 0 10px 50px 10px;
+    grid-template-columns: repeat(auto-fill, 280px);
+    justify-content: center;
+    margin-bottom: 50px;
 }
 
 .website{
@@ -289,11 +286,10 @@ li a:hover{
 }
 
 
-/*ブログページ*/
+/*Blogページ*/
 .blog-contents{
     background-color: rgb(233, 233, 233);
     width: 50%;
-    height: 1520px;
     margin-left: 3%;
     padding: 40px 50px;
 }
@@ -337,11 +333,10 @@ li a:hover{
     overflow-wrap: normal;
 }
 
-/*コンタクトページ*/
+/*Contactページ*/
 .contact-contents{
     background-color: rgb(233, 233, 233);
     width: 50%;
-    height: 1120px;
     margin-left: 3%;
     padding: 40px 80px;
 }
@@ -364,6 +359,7 @@ li a:hover{
     font-size: 1.1rem;
     margin-bottom: 20px;
 }
+
 label p{
     font-size: 1.5rem;
     font-weight: bold;
@@ -393,12 +389,13 @@ label,input,textarea{
 
 .my-email{
     background-color: white;
-    width: 80%;
+    width: 380px;
     height: auto;
-    padding: 10px 10%;
+    padding: 10px 15px;
     border-radius: 10px;
     border: dashed 2px rgb(126, 126, 126);
 }
+
 .my-email a{
     color: skyblue;
     font-size: 1.5rem;
@@ -418,4 +415,106 @@ footer p{
     font-weight: 400;
     color: white;
     padding: 10px;
+}
+
+@media screen and (min-width:640px) and (max-width:1023px) {
+    /*tablet用のcssを記述*/
+
+/*ヘッター*/
+header{
+    width: 90%;
+    margin: 20px 5% 40px 5%;
+}
+
+/*サイドメニュー*/
+.side{
+    width: 25%;
+    padding: 20px 10px;
+}
+
+/*Topページ*/
+.top-contents{
+    width: 63%;
+    margin-left: 2%;
+}
+
+/*各ページ*/
+ .info-contents,
+ .profile-contents,
+ .blog-contents,
+ .contact-contents{
+    width: 63%;
+    margin-left: 2%;
+    padding: 40px;
+}
+
+/*Galleryページ*/
+.gallery-contents{
+    width: 63%;
+    margin-left: 2%;
+
+}
+.illust,.design{
+    gap: 20px;
+    grid-template-columns: repeat(auto-fill, 200px);
+}
+.website{
+    margin: 0;
+}
+.illust-coment,.design-coment{
+    width: 200px;
+    font-size: 12px;
+    padding: 10px;
+}
+.website-coment{
+    width: 440px;
+    padding: 10px 20px;
+}
+.illust span,
+.design span{
+    font-size: 14px;
+}
+.website span{
+    font-size: 18px;
+}
+.illust img{
+    width: 200px;
+    height: 200px;
+}
+.design img{
+    width: 200px;
+    height: 200px;
+}
+.website img{
+    width: 440px;
+    height: 300px;
+}
+
+/*Blogページ*/
+.blog-contents{
+    height: 1440px;
+}
+.blog-contents img{
+    width: 380px;
+    height: auto;
+}
+
+/*Contactページ*/
+.message{
+    width: 340px;
+    resize: both;
+}
+.my-email{
+    width: 350px;
+    padding: 10px;
+}
+.my-email a{
+    font-size: 1.4rem;
+}
+
+/*フッター*/
+footer{
+    margin: 40px 5% 20px 5%;   
+}
+
 }
