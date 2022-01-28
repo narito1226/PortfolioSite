@@ -276,7 +276,6 @@ li a:hover{
     width: 280px;
     height: 250px;
     object-fit: contain;
-
 }
 
 .website img{
@@ -387,20 +386,18 @@ label,input,textarea{
     margin-bottom: 30px;
 }
 
-.my-email{
-    background-color: white;
+.my-adress{
+    display: block;
     width: 380px;
-    height: auto;
-    padding: 10px 15px;
-    border-radius: 10px;
-    border: dashed 2px rgb(126, 126, 126);
-}
-
-.my-email a{
+    padding: 10px;
     color: skyblue;
-    font-size: 1.5rem;
+    border-radius: 10px;
+    background-color: white;
+    border: dashed 2px rgb(126, 126, 126);
+    font-size: 1.4rem;
     font-weight: bold;
 }
+
 /*フッター*/
 footer{
     background-color: rgb(207, 207, 207);
@@ -464,7 +461,6 @@ header{
     padding: 10px;
 }
 
-
 .illust img{
     width: 220px;
     height: 220px;
@@ -489,12 +485,10 @@ header{
     width: 340px;
     resize: both;
 }
-.my-email{
-    width: 350px;
-    padding: 10px;
-}
-.my-email a{
-    font-size: 1.4rem;
+
+.my-adress{
+    width: 320px;
+    font-size: 1.2rem;
 }
 
 /*フッター*/
@@ -522,15 +516,17 @@ article{
     flex-direction: column;
 }
 
+/*サイドメニュー*/
 .side{
     width: 100%;
     background-color: rgba(207, 207, 207,0.2);
     margin-bottom: 10px;
     border: none;
 }
+
+/*Topページ*/
 .top-contents{
     width: 100%;
-    
     margin: 0;
 }
 
@@ -543,6 +539,7 @@ article{
     padding: 40px 20px;
 }
 
+/*Blogページ*/
 .blog-1,.blog-2{
     text-align: center;
 }
@@ -556,6 +553,7 @@ article{
     text-align: left;
     margin: 0 2.5%;
 }
+
 /*Galleryページ*/
 .illust{
     grid-template-columns: repeat(auto-fill, 300px);    
@@ -564,11 +562,9 @@ article{
     grid-template-columns: repeat(auto-fill, 250px);
 }
 
-
 .illust-coment{
     width: 300px;
 }
-
 .design-coment{
     width: 250px;
 }
@@ -576,8 +572,6 @@ article{
     width: 95%;
     margin: 20px 2.5% 50px 2.5%;
 }
-
-
 
 .illust img{
     width: 300px;
@@ -587,37 +581,47 @@ article{
     width: 250px;
     height: 200px;
 }
-
 .website img{
    width: 95%;
    margin: 0 2.5%;
 }
 
-
+/*Contactぺージ*/
 .contact-contents{
     width: 100%;
     margin: 0;
     padding: 40px 8%;
 }
 
-input{
-    width: 65%;
+label,input,textarea{
+    text-align: center;
+    margin: 0 auto;
 }
 
-textarea{
-    width: 80%;
+.name{
+    width: 200px;
+}
+.e-mail {
+    width: 280px;
+}
+.message{
+    width: 280px;
+    resize: both;
 }
 
-.my-email{
-    width: 80%;
-    padding: 10px;
+.ex-text{
+    font-size: 16px;
+    text-align: center;
 }
-.my-email a{
-    font-size: 1.2rem;
+.my-adress{
+    align-items: center;
+    width: 270px;
+    padding: 10px 5px;
+    margin: 0 auto;
+    font-size: 1.1rem;
 }
 
-
-
+/*フッター*/
 footer{
     height: 50px;
     margin: 20px 0;
